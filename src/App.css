@@ -10,40 +10,12 @@
   margin: 1;
   }
 
-header, footer {
-  background: #38596f;
-  text-align: center;
-  margin: 1;
-}
-
-label {
-  padding:1em;
-}
-
-header, footer {
-  color:white;
-  padding: 1em;
-}
-
-
-.chart {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  text-align: center;
-  position: relative;
-  display: flex;
-  flex: 1;
-
-}
-
 /* border color of bars and chart*/
 .chart-bar,
 .chart-container {
   list-style: none;
   border: 5px solid #000;
 }
-
 
 .chart-container {
   background-color: green;
@@ -73,7 +45,6 @@ header, footer {
 .chart-container div:hover { 
   opacity: 0.8; 
   width: 60px;
-
 }
 
 .chart .chart-bar {

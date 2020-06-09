@@ -3,9 +3,6 @@ import './App.css';
 import Header from './components/Header/Header.js';
 import Footer from './components/Footer/Footer.js';
 import BarChart from './components/BarChart/BarChart.js';
-import DatePicker from './components/BarChart/DatePicker.js';
-import CurrencyPicker from './components/CurrencyPicker/CurrencyPicker.js';
-
 
 
 const App = () => {
@@ -38,8 +35,15 @@ const App = () => {
   return (
    <div className="container">
   
-    <Header />
-    <BarChart />
+    <Header 
+      changeDate = {changeDate} 
+      apiData = {apiData} 
+      baseCurrency={baseCurrency}
+      changeBase={changeBase} 
+      date={date}
+    />
+
+    <BarChart apiData = {apiData}/>
     <Footer />
 
   </div>

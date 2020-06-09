@@ -1,2 +1,10 @@
 .Footer {
 }
+
+footer {
+    background: #38596f;
+    text-align: center;
+    margin: 1;
+    color:white;
+    padding: 1em;
+  }

@@ -3,7 +3,11 @@ import './Footer.css';
 
 function Footer() {
     return (  
-        <div></div>
+        <div>
+            <footer>
+            Created By JCTECH 2020
+            </footer>
+        </div>
     );
 }
 export default Footer;
